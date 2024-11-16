@@ -7,7 +7,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import androidx.navigation.compose.rememberNavController
 import dev.mmoreno.snoozelo.ui.extensions.loadAndStartObjectAnimator
-import dev.mmoreno.snoozelo.ui.navigation.SnoozeloNavHost
+import dev.mmoreno.snoozelo.navigation.SnoozeloNavHost
 import dev.mmoreno.snoozelo.ui.theme.SnoozeloTheme
 
 class MainActivity : ComponentActivity() {

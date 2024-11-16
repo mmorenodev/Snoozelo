@@ -8,7 +8,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import dev.mmoreno.snoozelo.ui.common.SnoozeloTopAppBar
-import dev.mmoreno.snoozelo.ui.navigation.DestinationType
+import dev.mmoreno.snoozelo.navigation.DestinationType
 
 @Composable
 fun AlarmSettingsScreen(

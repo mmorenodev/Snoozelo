@@ -1,4 +1,4 @@
-package dev.mmoreno.snoozelo.ui.navigation
+package dev.mmoreno.snoozelo.navigation
 
 import androidx.compose.runtime.Composable
 import androidx.navigation.NavGraphBuilder
@@ -8,8 +8,8 @@ import androidx.navigation.compose.composable
 import dev.mmoreno.snoozelo.R
 import dev.mmoreno.snoozelo.ui.AlarmSettingsScreen
 import dev.mmoreno.snoozelo.ui.YourAlarmsScreen
-import dev.mmoreno.snoozelo.ui.navigation.SnoozeloScreen.YourAlarms
-import dev.mmoreno.snoozelo.ui.navigation.SnoozeloScreen.AlarmSettings
+import dev.mmoreno.snoozelo.navigation.SnoozeloScreen.YourAlarms
+import dev.mmoreno.snoozelo.navigation.SnoozeloScreen.AlarmSettings
 
 @Composable
 fun SnoozeloNavHost(navHostController: NavHostController) {

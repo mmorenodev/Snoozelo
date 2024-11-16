@@ -11,7 +11,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import dev.mmoreno.snoozelo.R
-import dev.mmoreno.snoozelo.ui.navigation.DestinationType
+import dev.mmoreno.snoozelo.navigation.DestinationType
 
 @Composable
 fun SnoozeloTopAppBar(

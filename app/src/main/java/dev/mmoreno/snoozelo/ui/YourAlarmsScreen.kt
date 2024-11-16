@@ -18,7 +18,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import dev.mmoreno.snoozelo.R
 import dev.mmoreno.snoozelo.ui.common.SnoozeloTopAppBar
-import dev.mmoreno.snoozelo.ui.navigation.DestinationType
+import dev.mmoreno.snoozelo.navigation.DestinationType
 import dev.mmoreno.snoozelo.ui.theme.PrimaryColor
 import dev.mmoreno.snoozelo.ui.theme.SnoozeloTheme
 import dev.mmoreno.snoozelo.ui.theme.WhiteColor

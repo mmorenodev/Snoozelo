@@ -1,4 +1,4 @@
-package dev.mmoreno.snoozelo.ui.navigation
+package dev.mmoreno.snoozelo.navigation
 
 import androidx.annotation.StringRes
 
