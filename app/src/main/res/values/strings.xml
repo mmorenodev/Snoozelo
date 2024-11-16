@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Snoozelo</string>
+    <string name="your_alarms_screen_title">Your Alarms</string>
 </resources>
