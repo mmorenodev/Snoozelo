@@ -7,11 +7,14 @@ import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
 import androidx.compose.material3.Text
 import androidx.compose.material3.TopAppBar
+import androidx.compose.material3.TopAppBarDefaults
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import dev.mmoreno.snoozelo.R
 import dev.mmoreno.snoozelo.navigation.DestinationType
+import dev.mmoreno.snoozelo.ui.theme.BackgroundColor
+import dev.mmoreno.snoozelo.ui.theme.LocalAppBarColors
 
 @Composable
 fun SnoozeloTopAppBar(
@@ -40,7 +43,8 @@ fun SnoozeloPrimaryTopAppBar(
 ) {
     TopAppBar(
         title = { Text(title) },
-        modifier = modifier
+        modifier = modifier,
+        colors = LocalAppBarColors.current
     )
 }
 
@@ -53,6 +57,7 @@ fun SnoozeloSecondaryAppBar(
     TopAppBar(
         title = { },
         modifier = modifier,
+        colors = LocalAppBarColors.current,
         navigationIcon = {
             IconButton(onClick = onNavigationIconClick) {
                 Icon(imageVector = Icons.Default.Close, null)

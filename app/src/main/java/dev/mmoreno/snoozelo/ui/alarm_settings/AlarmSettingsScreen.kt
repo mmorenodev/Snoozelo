@@ -1,4 +1,4 @@
-package dev.mmoreno.snoozelo.ui
+package dev.mmoreno.snoozelo.ui.alarm_settings
 
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
