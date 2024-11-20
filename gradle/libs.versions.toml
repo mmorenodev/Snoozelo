@@ -39,6 +39,7 @@ koin-android = { module = "io.insert-koin:koin-android", version.ref = "koinAndr
 koin-test-junit4 = { module = "io.insert-koin:koin-test-junit4", version.ref = "koinAndroid" }
 koin-androidx-compose = { module = "io.insert-koin:koin-androidx-compose", version.ref = "koinAndroid" }
 androidx-appcompat = {module = "androidx.appcompat:appcompat", version.ref = "androidx-appcompat"}
+androidx-compose-foundation = { group = "androidx.compose.foundation", name = "foundation"}
 
 
 [plugins]
